@@ -5,7 +5,7 @@ import android.os.Handler;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-class ProgressViewModel extends ViewModel {
+public class ProgressViewModel extends ViewModel {
     private static final MutableLiveData<Boolean> isShowProgress = new MutableLiveData<>();
     // Показать прогресс в течении 10 сек.
     void showProgress() {
